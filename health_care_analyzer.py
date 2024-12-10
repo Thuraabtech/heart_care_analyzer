@@ -34,7 +34,7 @@ def user_input_features():
 blood_pressure, age, sex = user_input_features()
 
 # Load data
-data = pd.read_csv('/Users/soha/Downloads/heart.csv')
+data = pd.read_csv('/Downloads/heart.csv')
 
 # Display dataset
 st.header("Dataset Preview")
